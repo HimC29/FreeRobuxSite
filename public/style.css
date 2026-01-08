@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+#robloxBackground{
+    width: 100vw;
+    height: clamp(15em, 30vw, 17em);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(media/robloxBackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#titleContainer{
+    display: flex;
+    justify-content: center;
+}
+#robuxIcon{
+    width: clamp(1em, 10vw, 4em);
+    max-height: 100%;
+    object-fit: contain;
+    margin: 0;
+    margin-top: 1rem;
+}
+#title{
+    font-size: clamp(1em, 10vw, 4em);
+    margin: 0 0.75rem;
+    margin-top: 1rem;
+}
+
+#desc{
+    font-size: clamp(0.5em, 4vw, 1.5em);
+    margin-bottom: 2rem;
+}
+
+#getRobuxBtn{
+    font-size: clamp(0.75rem, 4vw, 2rem);
+}
+#robuxIcon2{
+    width: clamp(1em, 10vw, 3em);
+    max-height: 100%;
+    object-fit: contain;
+    margin: 1.5vh 0.55vw;
+    margin-right: clamp(0.1em, 1.5vw, 0.5em);
+}
+
+
+#infoForForm{
+    font-size: clamp(1.2em, 5vw, 2.2em);
+}
+
+form{
+    font-size: clamp(1em, 4vw, 2em);
+}
+#submitBtn{
+    font-size: clamp(1em, 4vw, 1.5em);
+}
